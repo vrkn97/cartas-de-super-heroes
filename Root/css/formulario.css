@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+/* ELEMENTOS DEL HEADER*/
+.headeruno {
+    background-color: #1CD1B0;
+    padding: 3px 3px 3px 20px;
+    color: #000000;
+}
+
+.headerdos {
+    display: flex;
+    background-color: #00669F;
+    padding: 0.5%;
+}
+
+.headerdos img {
+    width: 99px;
+    height: 70px;
+}
+
+.headerdos p {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 30px;
+    align-items: center;
+    padding-left: 1%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #001D2D;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+ul li {
+    padding: 0px 10px;
+}
+
+/* ESTILOS FORMULARIO */ 
+
+main {
+    width: 50vw;
+    height: 70vh;
+    margin: 3% 20%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #00669F;
+    color: #FBFFFD;
+}
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+section h1 {
+    display: flex;
+    font-size: 40px;
+    padding-bottom: 1%;
+}
+
+section p {
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+
+.primeraseccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.primeraseccion input {
+    border-radius: 12px;
+    width: 300px;
+    height: 50px;
+}
+.segundaseccion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-items: center;
+    width: 40%;
+    
+}
+
+

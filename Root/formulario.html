@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/formulario.css" />
+  </head>
+  <body>
+    <header>
+      <section class="headeruno">
+        20% de descuento en todos los productos!
+      </section>
+      <section class="headerdos">
+        <img src="./img/logo.jpg" alt="logo" />
+        <p>Nombre Tienda</p>
+      </section>
+        <ul>
+          <li>Contacto</li>
+          <li>Registrarme</li>
+          <li>Ingresar</li>
+        </ul>
+    </header>
+    <main>
+      <section>
+        <h1>Añadí tu super!</h1>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+      </section>
+        <form action="#" method="POST">
+          <div class="primeraseccion">
+            <label for="Nombre">*Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" />
+          </div>
+          <div class="segundaseccion">
+            <label for="Especie">*Especie</label>
+            <input type="text" name="Especie" id="Especie" />
+          </div>
+          <div>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="Fecha" id="fecha" />
+            
+            <label for="foto">Agregar Foto</label>
+            <input type="file" name="foto" id="foto" />
+          </div>
+          <div>
+            <textarea name="Descripción" id="Descripción">Descripción</textarea>
+          </div>
+          <label for="poderes">Poderes</label>
+          <div>
+            <label for="Volar">Volar</label>
+            <input type="checkbox" name="poderes" value="Volar" id="volar" />
+            <label for="SuperInteligencia">SuperInteligencia</label>
+            <input
+              type="checkbox"
+              name="poderes"
+              value="SuperInteligencia"
+              id="SuperInteligencia"
+            />
+            <label for="Vista de rayo láser">Vista de rayo láser</label>
+            <input
+              type="checkbox"
+              name="poderes"
+              value="Vista de rayo láser"
+              id="Vista de rayo láser"
+            />
+            <label for="Billetera gorda">Billetera gorda</label>
+            <input
+              type="checkbox"
+              name="poderes"
+              value="Billetera gorda"
+              id="Billetera gorda"
+            />
+          </div>
+          <label for="Tipo-personaje">Tipo de personaje</label>
+          <label for="heroe">Héroe / Heroina</label>
+          <input
+            type="radio"
+            name="Tipo-personaje"
+            value="Héroe / Heroina"
+            id="heroe"
+          />
+          <label for="villano">Villano / Villana</label>
+          <input
+            type="radio"
+            name="Tipo-personaje"
+            value="Villano / Villana"
+            id="villano"
+          />
+
+          <button type="submit">Añadir</button>
+        </form>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>
